@@ -1,0 +1,20 @@
+@model efcurso.Models.Funcionario
+
+<h2></h2>
+
+<form class="form-horizontal" asp-controller="Funcionarios" asp-action="Salvar" method="POST">
+    <input type="hidden" asp-for="Id">
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" class="form-control" asp-for="Nome" placeholder="Digite o Nome">
+    </div>
+    <div class="form-group">
+        <label for="Salário">Salário</label>
+        <input type="number" class="form-control" asp-for="Salario" placeholder="Digite o Salário">
+    </div>
+    <div class="form-group">
+        <label for="Cpf">Cpf</label>
+        <input type="text" class="form-control" asp-for="Cpf" placeholder="Digite o CPF">
+    </div>
+    <button class="btn btn-success">Cadastrar</button>
+</form>

@@ -1,0 +1,14 @@
+@model IEnumerable<efcurso.Models.Funcionario>
+
+<h2>Todos os Funcionários</h2>
+<a href="/Funcionarios/Cadastrar" class="btn btn-success">Novo</a>
+<hr>
+@foreach (var funcionario in Model)
+{
+    <p>@funcionario.Cpf</p>
+    <p>@funcionario.Nome</p>
+    <p>@funcionario.Salario</p>
+    <a href="/Funcionarios/Editar/@funcionario.Id" class="btn btn-success">Editar</a>
+    <a href="/Funcionarios/Deletar/@funcionario.Id" class="btn btn-danger">Deletar</a>
+    <hr>
+}
