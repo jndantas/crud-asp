@@ -56,3 +56,5 @@ E:\projetos\aspcore\efcurso\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options
 E:\projetos\aspcore\efcurso\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 E:\projetos\aspcore\efcurso\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Cadastrar.cshtml.g.cs
 E:\projetos\aspcore\efcurso\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Index.cshtml.g.cs
+E:\projetos\aspcore\efcurso\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\projetos\aspcore\efcurso\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
